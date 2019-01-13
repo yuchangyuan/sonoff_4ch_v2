@@ -1,0 +1,9 @@
+Sonoff 4CH simple firmware.
+
+1. use UDP to control, listen on port 12345
+2. one char per action, for example:
+  - "abcd" to turn off all CH
+  - "ABCD" to turn on all CH.
+  - "BaD" to turn off CH1, turn on CH2 & CH4
+3. will reply current state, in [Aa][Bb][Cc][Dd] format(4 chars).
+
